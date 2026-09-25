@@ -1,15 +1,33 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# macOS metadata
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+._*
+
+# Android Studio / IntelliJ local project settings
+.idea/
+*.iml
+
+# Gradle / Kotlin caches and generated build output
+.gradle/
+.kotlin/
+build/
+out/
+.externalNativeBuild/
+.cxx/
+
+# Machine-specific Android SDK paths
 local.properties
+
+# Generated Android packages, captures, and memory dumps
+*.apk
+*.aab
+*.ap_
+*.hprof
+captures/
+
+# Local signing keys and signing configuration
+*.jks
+*.keystore
+keystore.properties
+
+# Local terminal session metadata (including ~/.cmuxterm/)
+.cmuxterm/
